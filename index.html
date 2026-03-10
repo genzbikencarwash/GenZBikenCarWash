@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GenZBike N Car Wash">
+<meta name="theme-color" content="#0a1628">
+<title>GenZBike N Car Wash | Professional Bike N Car Detailing Services</title>
+<meta name="description" content="GenZBike N Car Wash offers premium foam wash, diesel watch, rubbing, polishing, teflon n ceramic coating for bikes and cars.">
+<meta name="keywords" content="bike wash, car wash, foam wash, diesel watch, rubbing, polishing, teflon coating, ceramic coating, GenZBike">
+<meta property="og:title" content="GenZBike N Car Wash | Premium Detailing Services">
+<meta property="og:type" content="website">
+<meta name="google-site-verification" content="vHWcbfUS0WG_v0Yd1xGRbXllhFvI1aougzUPKeivIZs" />
+<link rel="icon" type="image/png" href="https://drive.usercontent.google.com/download?id=16QOqVRclEC8VYzP1k4sZO8RFnK49WwKV&export=view&authuser=0">
+<link rel="apple-touch-icon" href="https://drive.usercontent.google.com/download?id=16QOqVRclEC8VYzP1k4sZO8RFnK49WwKV&export=view&authuser=0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"GenZBike N Car Wash","description":"Professional bike and car detailing services.","serviceType":["Foam Wash","Diesel Watch","Rubbing","Polishing","Teflon Coating","Ceramic Coating"]}
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+[data-theme="dark"]{--bg:#0a1628;--bg2:#0d1f3c;--bg3:#0f2847;--card:#ffffff;--card-border:#e2e8f0;--alt:#f1f5f9;--text:#0f172a;--muted:#475569;--nav-bg:#0a1628;--nav-border:#c8992a;--topbar-bg:#0a1628;--topbar-text:#94a3b8;--hero-text:#ffffff;--hero-sub:#cbd5e1;--hero-tag:#94a3b8;--stat-label:#64748b;--cta-band:#0a1628;--cta-band-text:#94a3b8;--cta-band-h:#ffffff;--faq-bg:#ffffff;--faq-border:#e2e8f0;--faq-text:#0f172a;--faq-ans:#475569;--toggle-bg:#1e3a5f;--toggle-knob:#f0c040;--sec-label-bg:#0a1628;--modal-bg:#0d1f3c;--modal-text:#e2e8f0;--modal-border:rgba(200,153,42,0.3)}
+[data-theme="light"]{--bg:#f8fafc;--bg2:#eef2ff;--bg3:#e0f2fe;--card:#ffffff;--card-border:#cbd5e1;--alt:#f1f5f9;--text:#0f172a;--muted:#475569;--nav-bg:#ffffff;--nav-border:#c8992a;--topbar-bg:#1e3a5f;--topbar-text:#cbd5e1;--hero-text:#0f172a;--hero-sub:#334155;--hero-tag:#475569;--stat-label:#475569;--cta-band:#0a1628;--cta-band-text:#94a3b8;--cta-band-h:#ffffff;--faq-bg:#ffffff;--faq-border:#e2e8f0;--faq-text:#0f172a;--faq-ans:#475569;--toggle-bg:#e2e8f0;--toggle-knob:#0a1628;--sec-label-bg:#0a1628;--modal-bg:#ffffff;--modal-text:#0f172a;--modal-border:rgba(200,153,42,0.3)}
+:root{--gold:#c8992a;--gold2:#f0c040;--navy:#0a1628}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:'Inter','Noto Sans Telugu',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;transition:background 0.35s,color 0.35s;-webkit-font-smoothing:antialiased}
+[data-lang="te"]{font-family:'Noto Sans Telugu','Inter',sans-serif}
+img{max-width:100%;height:auto;display:block}
+a,button{touch-action:manipulation}
+
+/* CURSOR */
+@media(hover:hover) and (pointer:fine){
+  *{cursor:none!important}
+  #cursor{position:fixed;top:0;left:0;width:48px;height:48px;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:transform 0.08s ease;will-change:transform}
+  #cursor svg{width:100%;height:100%;filter:drop-shadow(0 2px 6px rgba(200,153,42,0.5))}
+  #cursor-trail{position:fixed;top:0;left:0;pointer-events:none;z-index:99998;width:18px;height:18px;border-radius:50%;background:rgba(200,153,42,0.25);transform:translate(-50%,-50%);transition:left 0.18s ease,top 0.18s ease}
+}
+
+/* IMAGE LAZY LOAD */
+.lazy-img{opacity:0;transition:opacity 0.5s ease;background:#1e3a5f url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='%23c8992a' stroke-width='2' opacity='0.3'/%3E%3C/svg%3E") center no-repeat}
+.lazy-img.loaded{opacity:1}
+
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem;opacity:0;pointer-events:none;transition:opacity 0.3s}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal-box{background:var(--modal-bg);border:2px solid var(--gold);border-radius:14px;max-width:680px;width:100%;max-height:85vh;overflow-y:auto;padding:2rem 1.5rem;position:relative;transform:translateY(20px);transition:transform 0.3s}
+.modal-overlay.open .modal-box{transform:translateY(0)}
+.modal-close{position:sticky;top:0;float:right;background:var(--gold);color:var(--navy);border:none;width:32px;height:32px;border-radius:50%;font-size:1rem;font-weight:900;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;flex-shrink:0}
+.modal-box h3{font-size:1.3rem;font-weight:900;color:var(--gold2);margin-bottom:1rem;padding-right:2.5rem}
+.modal-box h4{font-size:0.95rem;font-weight:800;color:var(--gold);margin:1.2rem 0 0.4rem}
+.modal-box p,.modal-box li{font-size:0.85rem;color:var(--modal-text);line-height:1.8;margin-bottom:0.5rem}
+.modal-box ul{padding-left:1.2rem;margin-bottom:0.8rem}
+.modal-box ul li{list-style:disc}
+
+/* THEME */
+.theme-toggle{display:flex;align-items:center;gap:0.4rem;background:none;border:none;padding:0;min-height:44px;min-width:44px;justify-content:center}
+.toggle-track{width:40px;height:22px;border-radius:50px;background:var(--toggle-bg);position:relative;transition:background 0.3s;border:1.5px solid rgba(200,153,42,0.4);flex-shrink:0}
+.toggle-knob{position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:var(--toggle-knob);transition:transform 0.3s;box-shadow:0 1px 4px rgba(0,0,0,0.3)}
+[data-theme="light"] .toggle-knob{transform:translateX(18px)}
+.toggle-label{font-size:0.7rem;font-weight:700;color:#94a3b8;letter-spacing:0.5px;display:none}
+@media(min-width:768px){.toggle-label{display:block}}
+
+/* LANG */
+.lang-btn{display:flex;align-items:center;gap:0.35rem;background:rgba(200,153,42,0.12);border:1.5px solid rgba(200,153,42,0.4);border-radius:6px;padding:0.3rem 0.6rem;min-height:44px;transition:background 0.2s}
+.lang-btn:hover{background:rgba(200,153,42,0.22)}
+.lang-flag{font-size:1rem;line-height:1}
+.lang-text{font-size:0.72rem;font-weight:800;color:var(--gold2);white-space:nowrap;display:none}
+@media(min-width:480px){.lang-text{display:block}}
+
+/* TOPBAR */
+.topbar{background:var(--topbar-bg);color:var(--topbar-text);text-align:center;padding:0.4rem 1rem;font-size:0.72rem;font-weight:500;border-bottom:1px solid rgba(255,255,255,0.06);transition:background 0.35s;line-height:1.5}
+.topbar span{color:var(--gold2);font-weight:700}
+
+/* NAV */
+nav{position:sticky;top:0;width:100%;z-index:100;background:var(--nav-bg);border-bottom:3px solid var(--nav-border);padding:0 0.75rem;display:flex;align-items:center;justify-content:space-between;height:56px;box-shadow:0 4px 24px rgba(0,0,0,0.15);transition:background 0.35s}
+@media(min-width:480px){nav{height:60px;padding:0 1rem}}
+@media(min-width:768px){nav{height:64px;padding:0 1.5rem}}
+.logo{display:flex;align-items:center;gap:0.4rem;text-decoration:none}
+.logo-icon{width:30px;height:30px;border-radius:6px;background:linear-gradient(135deg,var(--gold),var(--gold2));display:flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:900;color:var(--navy);flex-shrink:0}
+@media(min-width:480px){.logo-icon{width:34px;height:34px;font-size:0.8rem;border-radius:7px}}
+.logo-text{font-size:0.82rem;font-weight:800;color:var(--hero-text);letter-spacing:-0.3px;transition:color 0.35s;white-space:nowrap}
+@media(min-width:360px){.logo-text{font-size:0.88rem}}
+@media(min-width:480px){.logo-text{font-size:0.95rem}}
+@media(min-width:768px){.logo-text{font-size:1.05rem}}
+.logo-text span{color:var(--gold2)}
+.nav-right{display:flex;align-items:center;gap:0.35rem}
+@media(min-width:480px){.nav-right{gap:0.5rem}}
+@media(min-width:768px){.nav-right{gap:0.7rem}}
+.nav-link{color:#94a3b8;font-size:0.78rem;font-weight:600;text-decoration:none;display:none;padding:0.25rem 0.4rem;min-height:44px;align-items:center}
+@media(min-width:768px){.nav-link{display:flex}}
+/* HAMBURGER */
+.hamburger{display:flex;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;padding:0.4rem;min-width:40px;min-height:40px;cursor:none!important}
+.hamburger span{display:block;width:24px;height:2.5px;background:var(--gold2);border-radius:2px;transition:transform 0.3s,opacity 0.3s,width 0.3s}
+.hamburger.open span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0;width:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+@media(min-width:768px){.hamburger{display:none}}
+
+/* MOBILE MENU DRAWER */
+.mobile-menu{
+  position:fixed;top:0;right:0;width:min(280px,85vw);height:100dvh;
+  background:var(--nav-bg);border-left:3px solid var(--gold);
+  z-index:200;padding:1.2rem;
+  display:flex;flex-direction:column;gap:0;
+  transform:translateX(110%);transition:transform 0.35s cubic-bezier(0.4,0,0.2,1);
+  box-shadow:-8px 0 32px rgba(0,0,0,0.3);
+  overflow-y:auto;
+}
+.mobile-menu.open{transform:translateX(0)}
+.menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:199;opacity:0;pointer-events:none;transition:opacity 0.35s}
+.menu-overlay.open{opacity:1;pointer-events:all}
+
+.menu-header{display:flex;align-items:center;justify-content:space-between;padding-bottom:1.2rem;border-bottom:1px solid rgba(200,153,42,0.2);margin-bottom:1rem}
+.menu-logo{font-size:0.95rem;font-weight:900;color:#fff}
+.menu-logo span{color:var(--gold2)}
+.menu-close{background:none;border:none;color:#94a3b8;font-size:1.4rem;font-weight:700;min-width:36px;min-height:36px;display:flex;align-items:center;justify-content:center;cursor:none!important}
+
+.menu-links{display:flex;flex-direction:column;gap:0.2rem;flex:1}
+.menu-link{display:flex;align-items:center;gap:0.8rem;color:var(--hero-text);font-size:0.95rem;font-weight:700;text-decoration:none;padding:0.85rem 0.8rem;border-radius:8px;transition:background 0.2s,color 0.2s;border:none;background:none;width:100%;text-align:left;cursor:none!important}
+.menu-link:hover,.menu-link:active{background:rgba(200,153,42,0.1);color:var(--gold2)}
+.menu-link-icon{width:32px;height:32px;border-radius:7px;background:rgba(200,153,42,0.12);border:1px solid rgba(200,153,42,0.25);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:900;color:var(--gold2);flex-shrink:0}
+
+/* SUBMENU */
+.has-sub .sub-arrow{margin-left:auto;font-size:0.7rem;color:#64748b;transition:transform 0.3s}
+.has-sub.sub-open .sub-arrow{transform:rotate(180deg)}
+.submenu{display:none;flex-direction:column;gap:0;margin:0.2rem 0 0.4rem 2.8rem;padding-left:0.8rem;border-left:2px solid rgba(200,153,42,0.25)}
+.submenu.open{display:flex}
+.submenu a{color:#94a3b8;font-size:0.85rem;font-weight:600;text-decoration:none;padding:0.55rem 0.6rem;border-radius:6px;transition:background 0.2s,color 0.2s;display:block}
+.submenu a:hover{background:rgba(200,153,42,0.08);color:var(--gold2)}
+
+.menu-divider{height:1px;background:rgba(200,153,42,0.15);margin:0.6rem 0}
+
+.menu-bottom{padding-top:1rem;border-top:1px solid rgba(200,153,42,0.2);display:flex;flex-direction:column;gap:0.7rem}
+.menu-call{display:flex;align-items:center;justify-content:center;gap:0.5rem;background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--navy);padding:0.85rem;border-radius:8px;font-weight:800;font-size:0.9rem;text-decoration:none;min-height:48px}
+.menu-wa{display:flex;align-items:center;justify-content:center;gap:0.5rem;background:#25d366;color:#fff;padding:0.85rem;border-radius:8px;font-weight:800;font-size:0.9rem;text-decoration:none;min-height:48px}
+.menu-settings{display:flex;align-items:center;justify-content:space-between;gap:0.8rem}
+
+/* LANG BTN responsive */
+.lang-btn{display:flex;align-items:center;gap:0.3rem;background:rgba(200,153,42,0.12);border:1.5px solid rgba(200,153,42,0.4);border-radius:6px;padding:0.25rem 0.5rem;min-height:38px;min-width:38px;justify-content:center;transition:background 0.2s}
+@media(min-width:480px){.lang-btn{min-height:42px;padding:0.3rem 0.6rem}}
+.lang-btn:hover{background:rgba(200,153,42,0.22)}
+.lang-flag{font-size:0.9rem;line-height:1}
+@media(min-width:480px){.lang-flag{font-size:1rem}}
+.lang-text{font-size:0.68rem;font-weight:800;color:var(--gold2);white-space:nowrap;display:none}
+@media(min-width:540px){.lang-text{display:block;font-size:0.72rem}}
+/* THEME TOGGLE responsive */
+.theme-toggle{display:flex;align-items:center;gap:0.3rem;background:none;border:none;padding:0;min-height:38px;min-width:38px;justify-content:center}
+@media(min-width:480px){.theme-toggle{min-height:44px;min-width:44px}}
+.toggle-track{width:36px;height:20px;border-radius:50px;background:var(--toggle-bg);position:relative;transition:background 0.3s;border:1.5px solid rgba(200,153,42,0.4);flex-shrink:0}
+@media(min-width:480px){.toggle-track{width:40px;height:22px}}
+.toggle-knob{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--toggle-knob);transition:transform 0.3s;box-shadow:0 1px 4px rgba(0,0,0,0.3)}
+@media(min-width:480px){.toggle-knob{width:16px;height:16px}}
+[data-theme="light"] .toggle-knob{transform:translateX(16px)}
+@media(min-width:480px){[data-theme="light"] .toggle-knob{transform:translateX(18px)}}
+.toggle-label{font-size:0.65rem;font-weight:700;color:#94a3b8;letter-spacing:0.5px;display:none}
+@media(min-width:768px){.toggle-label{display:block}}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,var(--bg) 0%,var(--bg2) 60%,var(--bg3) 100%);min-height:95svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4rem 1.2rem 3rem;position:relative;overflow:hidden;transition:background 0.35s}
+.hero-orb1{position:absolute;top:-80px;right:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(200,153,42,0.12),transparent 65%);pointer-events:none}
+.hero-orb2{position:absolute;bottom:-60px;left:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(26,86,219,0.15),transparent 65%);pointer-events:none}
+.hero-divider{width:50px;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:2px;margin:0 auto 1.2rem}
+.hero-badge{display:inline-flex;align-items:center;border:1px solid rgba(200,153,42,0.4);background:rgba(200,153,42,0.08);color:var(--gold2);padding:0.35rem 0.9rem;border-radius:4px;font-size:0.7rem;font-weight:700;letter-spacing:1px;margin-bottom:1.2rem;text-transform:uppercase}
+h1{font-size:clamp(1.75rem,6vw,4rem);font-weight:900;line-height:1.1;letter-spacing:-1px;margin-bottom:0.5rem;color:var(--hero-text);transition:color 0.35s}
+h1 .gold{color:var(--gold2)}
+.hero-tagline{font-size:clamp(0.72rem,2vw,0.95rem);color:var(--hero-tag);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;margin-bottom:1.2rem;transition:color 0.35s}
+.hero-sub{font-size:clamp(0.88rem,2.2vw,1.1rem);color:var(--hero-sub);max-width:520px;margin:0 auto 2rem;line-height:1.75;font-weight:400;transition:color 0.35s;padding:0 0.5rem}
+[data-lang="te"] h1{font-size:clamp(1.3rem,5vw,3.2rem);line-height:1.4;letter-spacing:0;word-break:break-word}
+[data-lang="te"] .hero-tagline{font-size:clamp(0.7rem,2vw,0.9rem);letter-spacing:0.3px;text-transform:none;line-height:1.6}
+[data-lang="te"] .hero-sub{font-size:clamp(0.85rem,2vw,1rem);line-height:1.9;max-width:560px}
+[data-lang="te"] .hero-badge{font-size:0.68rem;letter-spacing:0.3px;text-transform:none;padding:0.35rem 0.75rem}
+@media(max-width:480px){[data-lang="te"] h1{font-size:clamp(1.2rem,6.5vw,1.7rem);line-height:1.5}[data-lang="te"] .hero-sub{font-size:0.85rem}}
+@media(min-width:481px) and (max-width:1023px){[data-lang="te"] h1{font-size:clamp(1.5rem,4.5vw,2.4rem);line-height:1.4}}
+@media(min-width:1024px){[data-lang="te"] h1{font-size:clamp(2.2rem,3.8vw,3.2rem);line-height:1.3}}
+
+/* BUTTONS */
+.btn-group{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem;width:100%;padding:0 0.5rem}
+.cta-primary,.cta-whatsapp,.cta-outline{display:inline-flex;align-items:center;justify-content:center;border-radius:6px;font-weight:800;font-size:0.9rem;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;min-height:48px;padding:0.75rem 1.5rem;border:none;width:auto}
+@media(max-width:400px){.cta-primary,.cta-whatsapp,.cta-outline{width:100%;font-size:0.88rem}}
+.cta-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--navy);box-shadow:0 4px 20px rgba(200,153,42,0.45)}
+.cta-primary:hover{transform:translateY(-2px)}
+.cta-whatsapp{background:#25d366;color:#fff;box-shadow:0 4px 20px rgba(37,211,102,0.35)}
+.cta-whatsapp:hover{transform:translateY(-2px)}
+.cta-outline{border:2px solid rgba(200,153,42,0.4);color:var(--hero-text);background:rgba(200,153,42,0.06)}
+.cta-outline:hover{border-color:var(--gold);background:rgba(200,153,42,0.12)}
+.trust-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:0.75rem 1.2rem;padding:0 0.5rem}
+.trust-item{display:flex;align-items:center;gap:0.35rem;color:var(--stat-label);font-size:0.75rem;font-weight:600;transition:color 0.35s}
+.trust-check{color:var(--gold2);font-weight:900}
+
+/* STATS */
+.stats-section{background:var(--navy);padding:2.5rem 1rem;border-top:3px solid var(--gold);border-bottom:3px solid var(--gold)}
+.stats-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+@media(min-width:600px){.stats-inner{grid-template-columns:repeat(4,1fr)}}
+.stat{text-align:center;padding:0.5rem}
+.stat-num{font-size:2rem;font-weight:900;color:var(--gold2);line-height:1}
+.stat-label{font-size:0.72rem;color:#64748b;margin-top:0.35rem;font-weight:600;text-transform:uppercase;letter-spacing:0.4px}
+
+/* SECTION */
+.sec-wrap{padding:3.5rem 1.2rem;max-width:1100px;margin:0 auto}
+@media(min-width:768px){.sec-wrap{padding:5rem 1.5rem}}
+.sec-label{display:inline-block;background:var(--sec-label-bg);color:var(--gold2);padding:0.28rem 0.8rem;border-radius:4px;font-size:0.68rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:0.7rem;border:1px solid rgba(200,153,42,0.3)}
+h2{font-size:clamp(1.5rem,4vw,2.6rem);font-weight:900;letter-spacing:-0.5px;margin-bottom:0.8rem;color:var(--text);transition:color 0.35s}
+.sec-sub{color:var(--muted);font-size:0.92rem;max-width:500px;line-height:1.75;margin-bottom:2.5rem;font-weight:500;transition:color 0.35s}
+.gold-line{width:44px;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:2px;margin-bottom:1.3rem}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:480px){.services-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.services-grid{grid-template-columns:repeat(3,1fr)}}
+.service-card{background:var(--card);border:1px solid var(--card-border);border-top:4px solid var(--gold);border-radius:10px;padding:1.5rem 1.2rem;transition:transform 0.25s,box-shadow 0.25s,background 0.35s;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.service-card:active{transform:scale(0.98)}
+@media(hover:hover){.service-card:hover{transform:translateY(-5px);box-shadow:0 14px 40px rgba(0,0,0,0.1)}}
+.service-num{font-size:0.68rem;font-weight:800;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:0.7rem}
+.service-card h3{font-size:1rem;font-weight:800;margin-bottom:0.45rem;color:var(--text);transition:color 0.35s}
+.service-card p{font-size:0.83rem;color:var(--muted);line-height:1.65;transition:color 0.35s}
+.service-tag{display:inline-block;margin-top:0.9rem;font-size:0.68rem;font-weight:700;color:var(--gold);letter-spacing:0.4px;text-transform:uppercase;border:1px solid rgba(200,153,42,0.3);padding:0.18rem 0.55rem;border-radius:4px;background:rgba(200,153,42,0.06)}
+
+/* WHY */
+.alt-section{background:var(--alt);transition:background 0.35s}
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0.9rem}
+@media(min-width:600px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:900px){.why-grid{grid-template-columns:repeat(5,1fr)}}
+.why-card{background:var(--card);border:1px solid var(--card-border);border-radius:10px;padding:1.2rem;box-shadow:0 1px 8px rgba(0,0,0,0.05);transition:background 0.35s}
+.why-card h4{font-size:0.9rem;font-weight:800;margin-bottom:0.3rem;color:var(--text);transition:color 0.35s}
+.why-card p{font-size:0.78rem;color:var(--muted);line-height:1.6;transition:color 0.35s}
+.why-num{font-size:1.3rem;font-weight:900;color:var(--gold2);margin-bottom:0.45rem}
+
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:480px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:768px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-card{border-radius:12px;overflow:hidden;border:2px solid var(--gold);box-shadow:0 4px 20px rgba(0,0,0,0.1);background:var(--card)}
+.gallery-card img{width:100%;height:auto;max-height:380px;object-fit:contain;display:block;background:#000}
+.gallery-label{padding:0.75rem 1rem;font-size:0.75rem;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:0.7px;background:var(--card)}
+
+/* FAQ */
+.faq-list{display:flex;flex-direction:column;gap:0.75rem}
+.faq-item{background:var(--faq-bg);border:1px solid var(--faq-border);border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.04);transition:background 0.35s,border-color 0.35s}
+.faq-q{width:100%;background:none;border:none;color:var(--faq-text);padding:1rem 1.2rem;text-align:left;font-size:0.9rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;font-family:inherit;gap:0.8rem;transition:color 0.35s;min-height:52px}
+.faq-q .arrow{flex-shrink:0;transition:transform 0.3s,background 0.3s;font-size:0.75rem;color:var(--gold);background:rgba(200,153,42,0.1);border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-weight:900}
+.faq-a{display:none;padding:0 1.2rem 1rem;font-size:0.85rem;color:var(--faq-ans);line-height:1.75}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .arrow{transform:rotate(180deg);background:var(--gold);color:var(--navy)}
+.faq-item.open{border-color:var(--gold)}
+
+/* CTA */
+.cta-band{background:var(--cta-band);padding:4rem 1.2rem;text-align:center;border-top:3px solid var(--gold);border-bottom:3px solid var(--gold);transition:background 0.35s}
+.cta-band h2{color:var(--cta-band-h)}
+.cta-band p{color:var(--cta-band-text);max-width:440px;margin:0 auto 2rem;line-height:1.75;font-size:0.92rem}
+.cta-buttons{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap}
+.cta-call,.cta-wa{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;padding:0.9rem 1.8rem;border-radius:6px;font-weight:900;font-size:0.95rem;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;min-height:52px}
+@media(max-width:400px){.cta-call,.cta-wa{width:100%}}
+.cta-call{background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--navy);box-shadow:0 4px 20px rgba(200,153,42,0.45)}
+.cta-call:hover{transform:translateY(-2px)}
+.cta-wa{background:#25d366;color:#fff;box-shadow:0 4px 20px rgba(37,211,102,0.35)}
+.cta-wa:hover{transform:translateY(-2px)}
+
+/* MAP */
+.map-section{background:var(--navy);border-top:3px solid var(--gold);border-bottom:3px solid var(--gold);padding:3.5rem 1.2rem;text-align:center}
+.map-inner{max-width:900px;margin:0 auto}
+.map-frame{border-radius:10px;overflow:hidden;border:3px solid var(--gold);box-shadow:0 8px 32px rgba(0,0,0,0.4)}
+.map-frame iframe{width:100%;height:280px;border:0;display:block}
+@media(min-width:480px){.map-frame iframe{height:340px}}
+@media(min-width:768px){.map-frame iframe{height:400px}}
+
+/* FOOTER */
+footer{background:var(--navy);border-top:3px solid var(--gold);padding:2rem 1.2rem;text-align:center}
+.footer-logo{font-size:1rem;font-weight:900;color:#fff;margin-bottom:0.5rem}
+.footer-logo span{color:var(--gold2)}
+.footer-services{font-size:0.72rem;color:#475569;margin-bottom:0.8rem;line-height:2}
+.footer-links{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin-bottom:0.8rem}
+.footer-links button{background:none;border:none;color:#94a3b8;font-size:0.75rem;font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:0.3rem;min-height:36px}
+.footer-links button:hover{color:var(--gold2)}
+.footer-bottom{font-size:0.7rem;color:#334155;margin-top:0.8rem;padding-top:0.8rem;border-top:1px solid rgba(255,255,255,0.06)}
+
+/* FLOAT WA */
+.float-wa{position:fixed;bottom:1.2rem;right:1.2rem;z-index:999;background:#25d366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.5);font-size:1.5rem;text-decoration:none;animation:pulse 2s infinite}
+@media(min-width:768px){.float-wa{display:none}}
+@keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.5)}50%{box-shadow:0 4px 32px rgba(37,211,102,0.8)}}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity 0.5s ease,transform 0.5s ease}
+.reveal.visible{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<!-- FOAM CURSOR -->
+<div id="cursor"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="36" r="16" fill="rgba(200,210,255,0.7)" stroke="rgba(255,255,255,0.9)" stroke-width="1.5"/><ellipse cx="23" cy="29" rx="5" ry="3" fill="rgba(255,255,255,0.6)" transform="rotate(-20 23 29)"/><circle cx="44" cy="24" r="10" fill="rgba(180,200,255,0.65)" stroke="rgba(255,255,255,0.85)" stroke-width="1.2"/><ellipse cx="40" cy="19" rx="3" ry="2" fill="rgba(255,255,255,0.55)" transform="rotate(-15 40 19)"/><circle cx="14" cy="26" r="7" fill="rgba(210,220,255,0.6)" stroke="rgba(255,255,255,0.8)" stroke-width="1"/><circle cx="36" cy="12" r="5" fill="rgba(200,215,255,0.6)" stroke="rgba(255,255,255,0.75)" stroke-width="1"/><circle cx="10" cy="42" r="4" fill="rgba(215,225,255,0.55)" stroke="rgba(255,255,255,0.7)" stroke-width="0.8"/><circle cx="48" cy="38" r="3" fill="rgba(200,210,255,0.5)" stroke="rgba(255,255,255,0.65)" stroke-width="0.8"/><circle cx="20" cy="52" r="3.5" fill="rgba(210,220,255,0.5)" stroke="rgba(255,255,255,0.65)" stroke-width="0.8"/><circle cx="52" cy="14" r="2.5" fill="rgba(200,215,255,0.45)" stroke="rgba(255,255,255,0.6)" stroke-width="0.7"/></svg></div>
+<div id="cursor-trail"></div>
+
+<!-- PRIVACY MODAL -->
+<div class="modal-overlay" id="privacyModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('privacyModal')">&#10005;</button>
+    <h3>Privacy Policy</h3>
+    <p>Last updated: March 2026. GenZBike N Car Wash ("we", "us", or "our") is committed to protecting your personal information.</p>
+    <h4>Information We Collect</h4>
+    <ul>
+      <li>Name and contact details when you book a service or contact us via phone or WhatsApp.</li>
+      <li>Vehicle information (type, model) to provide the right service.</li>
+      <li>Location data if you use Google Maps to find us.</li>
+      <li>Usage data collected automatically via browser when visiting this website.</li>
+    </ul>
+    <h4>How We Use Your Information</h4>
+    <ul>
+      <li>To confirm and manage your service bookings.</li>
+      <li>To send service updates or reminders via WhatsApp or phone.</li>
+      <li>To improve our services and website experience.</li>
+    </ul>
+    <h4>Data Sharing</h4>
+    <p>We do not sell, rent, or trade your personal information to any third parties. We may share data only with service providers who assist us in running this website or delivering our services.</p>
+    <h4>Data Security</h4>
+    <p>We take reasonable steps to protect your data. However, no method of transmission over the internet is 100% secure.</p>
+    <h4>Your Rights</h4>
+    <p>You have the right to access, correct, or delete your personal data. Contact us at +91 99483 60863 to make a request.</p>
+    <h4>Contact Us</h4>
+    <p>GenZBike N Car Wash, Vissannapeta, Andhra Pradesh. Phone: +91 99483 60863</p>
+  </div>
+</div>
+
+<!-- TERMS MODAL -->
+<div class="modal-overlay" id="termsModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('termsModal')">&#10005;</button>
+    <h3>Terms &amp; Conditions</h3>
+    <p>Last updated: March 2026. By using our services, you agree to the following terms.</p>
+    <h4>Services</h4>
+    <ul>
+      <li>GenZBike N Car Wash provides vehicle detailing services including foam wash, diesel watch, rubbing, polishing, teflon coating, and ceramic coating.</li>
+      <li>Services are subject to availability and may vary based on vehicle condition.</li>
+    </ul>
+    <h4>Bookings</h4>
+    <ul>
+      <li>Bookings can be made via phone call or WhatsApp.</li>
+      <li>We reserve the right to reschedule or cancel a booking due to unforeseen circumstances.</li>
+      <li>Please arrive on time for your scheduled service.</li>
+    </ul>
+    <h4>Pricing</h4>
+    <ul>
+      <li>All prices are discussed and agreed upon before the service begins.</li>
+      <li>Additional charges may apply for vehicles in severely neglected condition.</li>
+      <li>Prices are subject to change without prior notice.</li>
+    </ul>
+    <h4>Liability</h4>
+    <ul>
+      <li>We take the utmost care with every vehicle. However, we are not liable for pre-existing damage, mechanical faults, or any issues unrelated to our services.</li>
+      <li>Customers are advised to remove valuables from the vehicle before handover.</li>
+    </ul>
+    <h4>Satisfaction</h4>
+    <p>If you are not satisfied with a service, please inform us on the same day. We will do our best to resolve the issue promptly.</p>
+    <h4>Governing Law</h4>
+    <p>These terms are governed by the laws of India. Any disputes shall be subject to the jurisdiction of courts in Andhra Pradesh.</p>
+    <h4>Contact Us</h4>
+    <p>GenZBike N Car Wash, Vissannapeta, Andhra Pradesh. Phone: +91 99483 60863</p>
+  </div>
+</div>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/919948360863?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service%20at%20GenZBike%20N%20Car%20Wash" target="_blank" class="float-wa" aria-label="WhatsApp Us">&#x1F4AC;</a>
+
+<!-- TOPBAR -->
+<div class="topbar"><span data-i="topbar_open">Open Today — Walk-ins Welcome</span> &nbsp;|&nbsp; <span>+91 99483 60863</span></div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <div class="logo-icon">GZ</div>
+    <div class="logo-text">GenZ<span>Bike</span> N Car Wash</div>
+  </div>
+  <div class="nav-right">
+    <a href="#gallery" class="nav-link" data-i="nav_gallery">Gallery</a>
+    <a href="#services" class="nav-link" data-i="nav_services">Services</a>
+    <a href="#why" class="nav-link" data-i="nav_why">Why Us</a>
+    <a href="#faq" class="nav-link" data-i="nav_faq">FAQ</a>
+    <button class="lang-btn" onclick="toggleLang()" id="langBtn" aria-label="Switch language">
+      <span class="lang-flag" id="langFlag">🇮🇳</span>
+      <span class="lang-text" id="langText">తెలుగు</span>
+    </button>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+      <div class="toggle-track"><div class="toggle-knob"></div></div>
+      <span class="toggle-label" id="toggleLabel">LIGHT</span>
+    </button>
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+
+<!-- MOBILE MENU DRAWER -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="menu-header">
+    <div class="menu-logo">GenZ<span>Bike</span> N Car Wash</div>
+    <button class="menu-close" onclick="closeMenu()" aria-label="Close menu">&#10005;</button>
+  </div>
+
+  <div class="menu-links">
+    <!-- Services (has submenu) -->
+    <button class="menu-link has-sub" onclick="toggleSub(this)" aria-expanded="false">
+      <div class="menu-link-icon">🔧</div>
+      <span data-i="nav_services">Services</span>
+      <span class="sub-arrow">▼</span>
+    </button>
+    <div class="submenu">
+      <a href="#services" onclick="closeMenu()" data-i="s1_h">Foam Wash</a>
+      <a href="#services" onclick="closeMenu()" data-i="s2_h">Diesel Watch</a>
+      <a href="#services" onclick="closeMenu()" data-i="s3_h">Rubbing</a>
+      <a href="#services" onclick="closeMenu()" data-i="s4_h">Polishing</a>
+      <a href="#services" onclick="closeMenu()" data-i="s5_h">Teflon Coating</a>
+      <a href="#services" onclick="closeMenu()" data-i="s6_h">Ceramic Coating</a>
+    </div>
+
+    <div class="menu-divider"></div>
+
+    <a href="#gallery" class="menu-link" onclick="closeMenu()">
+      <div class="menu-link-icon">📸</div>
+      <span data-i="nav_gallery">Gallery</span>
+    </a>
+    <a href="#why" class="menu-link" onclick="closeMenu()">
+      <div class="menu-link-icon">⭐</div>
+      <span data-i="nav_why">Why Us</span>
+    </a>
+    <a href="#faq" class="menu-link" onclick="closeMenu()">
+      <div class="menu-link-icon">💬</div>
+      <span data-i="nav_faq">FAQ</span>
+    </a>
+
+    <div class="menu-divider"></div>
+  </div>
+
+  <div class="menu-bottom">
+    <a href="tel:+919948360863" class="menu-call" onclick="closeMenu()">📞 &nbsp;Call +91 99483 60863</a>
+    <a href="https://wa.me/919948360863?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service%20at%20GenZBike%20N%20Car%20Wash" target="_blank" class="menu-wa" onclick="closeMenu()">💬 &nbsp;WhatsApp Us</a>
+    <div class="menu-settings">
+      <button class="lang-btn" onclick="toggleLang()" aria-label="Switch language">
+        <span class="lang-flag" id="menuLangFlag">🇮🇳</span>
+        <span class="lang-text" id="menuLangText">తెలుగు</span>
+      </button>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <div class="toggle-track"><div class="toggle-knob"></div></div>
+        <span style="font-size:0.65rem;font-weight:700;color:#94a3b8">THEME</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-orb1"></div><div class="hero-orb2"></div>
+  <div class="hero-badge" data-i="hero_badge">Trusted Vehicle Detailing Experts</div>
+  <div class="hero-divider"></div>
+  <p class="hero-tagline" data-i="hero_tagline">Professional &nbsp;·&nbsp; Reliable &nbsp;·&nbsp; On Time</p>
+  <h1 data-i="hero_h1">Your Ride Deserves<br>The <span class="gold">Best Care</span></h1>
+  <p class="hero-sub" data-i="hero_sub">From a quick foam wash to a full ceramic coating — we deliver showroom-level results for every bike and car, every single time.</p>
+  <div class="btn-group">
+    <a href="tel:+919948360863" class="cta-primary" data-i="btn_call">Call to Book Now</a>
+    <a href="https://wa.me/919948360863?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service%20at%20GenZBike%20N%20Car%20Wash" target="_blank" class="cta-whatsapp" data-i="btn_wa">WhatsApp Us</a>
+    <a href="#services" class="cta-outline" data-i="btn_services">View Services</a>
+  </div>
+  <div class="trust-bar">
+    <div class="trust-item"><span class="trust-check">&#10003;</span><span data-i="trust_1">Paint-Safe Products</span></div>
+    <div class="trust-item"><span class="trust-check">&#10003;</span><span data-i="trust_2">On-Time Delivery</span></div>
+    <div class="trust-item"><span class="trust-check">&#10003;</span><span data-i="trust_3">Honest Pricing</span></div>
+    <div class="trust-item"><span class="trust-check">&#10003;</span><span data-i="trust_4">2,500+ Vehicles Served</span></div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-section">
+  <div class="stats-inner">
+    <div class="stat"><div class="stat-num">2,500+</div><div class="stat-label" data-i="stat_1">Vehicles Cleaned</div></div>
+    <div class="stat"><div class="stat-num">98%</div><div class="stat-label" data-i="stat_2">Happy Customers</div></div>
+    <div class="stat"><div class="stat-num">6</div><div class="stat-label" data-i="stat_3">Specialist Services</div></div>
+    <div class="stat"><div class="stat-num">3+</div><div class="stat-label" data-i="stat_4">Years of Trust</div></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<div class="sec-wrap" id="services">
+  <div class="reveal">
+    <div class="sec-label" data-i="sec_services_label">Our Services</div>
+    <h2 data-i="sec_services_h2">Everything Your Ride Needs</h2>
+    <div class="gold-line"></div>
+    <p class="sec-sub" data-i="sec_services_sub">Six professional services — done with care, delivered on time, and built to last.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><div class="service-num" data-i="sn_01">Service 01</div><h3 data-i="s1_h">Foam Wash</h3><p data-i="s1_p">High-pressure foam lifts away dust, dirt, and grime from every corner without scratching your paint.</p><div class="service-tag" data-i="s1_tag">Cars N Bikes</div></div>
+    <div class="service-card reveal"><div class="service-num" data-i="sn_02">Service 02</div><h3 data-i="s2_h">Diesel Watch</h3><p data-i="s2_p">Targeted treatment that removes stubborn diesel stains, oil marks, and engine residue from panels and undercarriage.</p><div class="service-tag" data-i="s2_tag">Deep Clean</div></div>
+    <div class="service-card reveal"><div class="service-num" data-i="sn_03">Service 03</div><h3 data-i="s3_h">Rubbing</h3><p data-i="s3_p">Surface scratches and paint oxidation carefully removed to restore your vehicle's original smooth finish.</p><div class="service-tag" data-i="s3_tag">Paint Restore</div></div>
+    <div class="service-card reveal"><div class="service-num" data-i="sn_04">Service 04</div><h3 data-i="s4_h">Polishing</h3><p data-i="s4_p">A deep, glossy shine that turns heads. Our polishing gives your vehicle that fresh-from-the-showroom look.</p><div class="service-tag" data-i="s4_tag">Showroom Finish</div></div>
+    <div class="service-card reveal"><div class="service-num" data-i="sn_05">Service 05</div><h3 data-i="s5_h">Teflon Coating</h3><p data-i="s5_p">A tough protective film that guards against UV rays, minor scratches, and daily wear for months.</p><div class="service-tag" data-i="s5_tag">6–12 Month Protection</div></div>
+    <div class="service-card reveal"><div class="service-num" data-i="sn_06">Service 06</div><h3 data-i="s6_h">Ceramic Coating</h3><p data-i="s6_p">The ultimate long-term protection. Nano-ceramic technology bonds to your paint for a hydrophobic, glass-like shield.</p><div class="service-tag" data-i="s6_tag">2–5 Year Protection</div></div>
+  </div>
+</div>
+
+<!-- WHY -->
+<div class="alt-section" id="why">
+  <div class="sec-wrap" style="padding-top:3rem;padding-bottom:3rem">
+    <div class="reveal">
+      <div class="sec-label" data-i="sec_why_label">Why Choose Us</div>
+      <h2 data-i="sec_why_h2">We Do It the Right Way</h2>
+      <div class="gold-line"></div>
+      <p class="sec-sub" data-i="sec_why_sub">No shortcuts. No hidden fees. Just results that speak for themselves.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal"><div class="why-num">01</div><h4 data-i="w1_h">Paint-Safe Products</h4><p data-i="w1_p">Premium products that clean without harming your vehicle's finish.</p></div>
+      <div class="why-card reveal"><div class="why-num">02</div><h4 data-i="w2_h">Fast Turnaround</h4><p data-i="w2_p">Quick, thorough service — we never rush quality, but we respect your time.</p></div>
+      <div class="why-card reveal"><div class="why-num">03</div><h4 data-i="w3_h">Honest Pricing</h4><p data-i="w3_p">Clear, upfront pricing with zero hidden charges. Ever.</p></div>
+      <div class="why-card reveal"><div class="why-num">04</div><h4 data-i="w4_h">Trained Experts</h4><p data-i="w4_p">Our team is trained in professional-grade detailing techniques.</p></div>
+      <div class="why-card reveal"><div class="why-num">05</div><h4 data-i="w5_h">On-Time Delivery</h4><p data-i="w5_p">Your vehicle is always ready when promised — no delays, no excuses.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<div class="sec-wrap" id="gallery">
+  <div class="reveal">
+    <div class="sec-label" data-i="sec_gallery_label">Our Work</div>
+    <h2 data-i="sec_gallery_h2">Before &amp; After Gallery</h2>
+    <div class="gold-line"></div>
+    <p class="sec-sub" data-i="sec_gallery_sub">Real results from real vehicles we have worked on.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-card reveal">
+      <img class="lazy-img" data-src="https://i.ibb.co/nNRhSdjt/20260308-140128.jpg" alt="GenZBike N Car Wash - Professional Detailing" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+      <div class="gallery-label" data-i="gallery_tag1">Professional Detailing</div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="sec-wrap" id="faq">
+  <div class="reveal">
+    <div class="sec-label" data-i="sec_faq_label">FAQ</div>
+    <h2 data-i="sec_faq_h2">Frequently Asked Questions</h2>
+    <div class="gold-line"></div>
+    <p class="sec-sub" data-i="sec_faq_sub">Quick answers to what our customers ask most.</p>
+  </div>
+  <div class="faq-list reveal">
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq1_q">What is a foam wash and is it safe?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq1_a">Yes, completely safe. Foam wash uses a thick low-pressure foam to loosen and lift dirt before rinsing — no brushes, no scratches, zero damage to your paint.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq2_q">What does the diesel watch treatment include?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq2_a">It is a targeted clean for diesel fuel stains, oil marks, and engine residue. We treat the exterior panels, wheel arches, and undercarriage.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq3_q">What is the difference between rubbing and polishing?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq3_a">Rubbing removes surface scratches and oxidation. Polishing comes next — it brings out a deep mirror-like shine. Together they deliver the best finish possible.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq4_q">How long does teflon coating last?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq4_a">Teflon coating typically lasts 6–12 months. It shields against UV rays, minor scratches, and environmental contaminants.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq5_q">Is ceramic coating worth it?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq5_a">Absolutely. Ceramic coating bonds to your paint creating a hard hydrophobic layer that repels water, dirt, and UV rays for 2–5 years.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)"><span data-i="faq6_q">Do you service both bikes and cars?</span><span class="arrow">&#9660;</span></button><div class="faq-a" data-i="faq6_a">Yes. All six services are available for both bikes and cars. We adjust our techniques based on vehicle type for the best result every time.</div></div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-band" id="contact">
+  <div class="sec-label" data-i="cta_label">Get In Touch</div>
+  <h2 data-i="cta_h2">Ready to Book Your Service?</h2>
+  <p data-i="cta_p">Call us or send a WhatsApp message. We will confirm your slot and have your ride looking its absolute best.</p>
+  <div class="cta-buttons">
+    <a href="tel:+919948360863" class="cta-call" data-i="cta_call">Call +91 99483 60863</a>
+    <a href="https://wa.me/919948360863?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service%20at%20GenZBike%20N%20Car%20Wash" target="_blank" class="cta-wa" data-i="cta_wa">WhatsApp to Book</a>
+  </div>
+</div>
+
+<!-- MAP -->
+<div class="map-section">
+  <div class="map-inner">
+    <div class="sec-label" data-i="map_label">Find Us</div>
+    <h2 style="color:#fff;margin-bottom:0.5rem;" data-i="map_h2">Our Location</h2>
+    <div class="gold-line" style="margin:0.8rem auto 1rem;"></div>
+    <p style="color:#94a3b8;margin-bottom:1.5rem;font-size:0.9rem;font-weight:500;" data-i="map_sub">Visit us today — walk-ins always welcome.</p>
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952.8!2d80.7804969!3d16.9417625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35d7cbd6b1fd49:0xab09954caf998eaa!2sWQRJ%2BPF2%2C+Vissannapeta%2C+Andhra+Pradesh!5e0!3m2!1sen!2sin!4v1710000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="GenZBike N Car Wash Location"></iframe>
+    </div>
+    <a href="https://www.google.com/maps/place/WQRJ%2BPF2,+Vissannapeta,+Andhra+Pradesh/@16.9417625,80.7804969,19z" target="_blank" style="display:inline-flex;align-items:center;gap:0.5rem;margin-top:1.2rem;background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--navy);padding:0.75rem 1.8rem;border-radius:6px;font-weight:800;font-size:0.9rem;text-decoration:none;min-height:48px;" data-i="map_btn">Open in Google Maps</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">GenZ<span>Bike</span> N Car Wash</div>
+  <div class="footer-services" data-i="footer_services">Foam Wash · Diesel Watch · Rubbing · Polishing · Teflon Coating · Ceramic Coating</div>
+  <div class="footer-links">
+    <button onclick="openModal('privacyModal')" data-i="footer_privacy">Privacy Policy</button>
+    <button onclick="openModal('termsModal')" data-i="footer_terms">Terms &amp; Conditions</button>
+  </div>
+  <div class="footer-bottom" data-i="footer_copy">© 2026 GenZBike N Car Wash. All rights reserved.</div>
+</footer>
+
+<script>
+const T={
+  en:{
+    topbar_open:"Open Today — Walk-ins Welcome",
+    nav_gallery:"Gallery",nav_services:"Services",nav_why:"Why Us",nav_faq:"FAQ",nav_book:"Book Now",
+    hero_badge:"Trusted Vehicle Detailing Experts",hero_tagline:"Professional · Reliable · On Time",
+    hero_h1:"Your Ride Deserves<br>The <span class='gold'>Best Care</span>",
+    hero_sub:"From a quick foam wash to a full ceramic coating — we deliver showroom-level results for every bike and car, every single time.",
+    btn_call:"Call to Book Now",btn_wa:"WhatsApp Us",btn_services:"View Services",
+    trust_1:"Paint-Safe Products",trust_2:"On-Time Delivery",trust_3:"Honest Pricing",trust_4:"2,500+ Vehicles Served",
+    stat_1:"Vehicles Cleaned",stat_2:"Happy Customers",stat_3:"Specialist Services",stat_4:"Years of Trust",
+    sec_services_label:"Our Services",sec_services_h2:"Everything Your Ride Needs",sec_services_sub:"Six professional services — done with care, delivered on time, and built to last.",
+    sn_01:"Service 01",sn_02:"Service 02",sn_03:"Service 03",sn_04:"Service 04",sn_05:"Service 05",sn_06:"Service 06",
+    s1_h:"Foam Wash",s1_p:"High-pressure foam lifts away dust, dirt, and grime from every corner without scratching your paint.",s1_tag:"Cars N Bikes",
+    s2_h:"Diesel Watch",s2_p:"Targeted treatment that removes stubborn diesel stains, oil marks, and engine residue from panels and undercarriage.",s2_tag:"Deep Clean",
+    s3_h:"Rubbing",s3_p:"Surface scratches and paint oxidation carefully removed to restore your vehicle's original smooth finish.",s3_tag:"Paint Restore",
+    s4_h:"Polishing",s4_p:"A deep, glossy shine that turns heads. Our polishing gives your vehicle that fresh-from-the-showroom look.",s4_tag:"Showroom Finish",
+    s5_h:"Teflon Coating",s5_p:"A tough protective film that guards against UV rays, minor scratches, and daily wear for months.",s5_tag:"6–12 Month Protection",
+    s6_h:"Ceramic Coating",s6_p:"The ultimate long-term protection. Nano-ceramic technology bonds to your paint for a hydrophobic, glass-like shield.",s6_tag:"2–5 Year Protection",
+    sec_why_label:"Why Choose Us",sec_why_h2:"We Do It the Right Way",sec_why_sub:"No shortcuts. No hidden fees. Just results that speak for themselves.",
+    w1_h:"Paint-Safe Products",w1_p:"Premium products that clean without harming your vehicle's finish.",
+    w2_h:"Fast Turnaround",w2_p:"Quick, thorough service — we never rush quality, but we respect your time.",
+    w3_h:"Honest Pricing",w3_p:"Clear, upfront pricing with zero hidden charges. Ever.",
+    w4_h:"Trained Experts",w4_p:"Our team is trained in professional-grade detailing techniques.",
+    w5_h:"On-Time Delivery",w5_p:"Your vehicle is always ready when promised — no delays, no excuses.",
+    sec_gallery_label:"Our Work",sec_gallery_h2:"Before & After Gallery",sec_gallery_sub:"Real results from real vehicles we have worked on.",gallery_tag1:"Professional Detailing",
+    sec_faq_label:"FAQ",sec_faq_h2:"Frequently Asked Questions",sec_faq_sub:"Quick answers to what our customers ask most.",
+    faq1_q:"What is a foam wash and is it safe?",faq1_a:"Yes, completely safe. Foam wash uses a thick low-pressure foam to loosen and lift dirt before rinsing — no brushes, no scratches, zero damage to your paint.",
+    faq2_q:"What does the diesel watch treatment include?",faq2_a:"It is a targeted clean for diesel fuel stains, oil marks, and engine residue. We treat the exterior panels, wheel arches, and undercarriage.",
+    faq3_q:"What is the difference between rubbing and polishing?",faq3_a:"Rubbing removes surface scratches and oxidation. Polishing comes next — it brings out a deep mirror-like shine. Together they deliver the best finish possible.",
+    faq4_q:"How long does teflon coating last?",faq4_a:"Teflon coating typically lasts 6–12 months. It shields against UV rays, minor scratches, and environmental contaminants.",
+    faq5_q:"Is ceramic coating worth it?",faq5_a:"Absolutely. Ceramic coating bonds to your paint creating a hard hydrophobic layer that repels water, dirt, and UV rays for 2–5 years.",
+    faq6_q:"Do you service both bikes and cars?",faq6_a:"Yes. All six services are available for both bikes and cars. We adjust our techniques based on vehicle type for the best result every time.",
+    cta_label:"Get In Touch",cta_h2:"Ready to Book Your Service?",cta_p:"Call us or send a WhatsApp message. We will confirm your slot and have your ride looking its absolute best.",
+    cta_call:"Call +91 99483 60863",cta_wa:"WhatsApp to Book",
+    map_label:"Find Us",map_h2:"Our Location",map_sub:"Visit us today — walk-ins always welcome.",map_btn:"Open in Google Maps",
+    footer_services:"Foam Wash · Diesel Watch · Rubbing · Polishing · Teflon Coating · Ceramic Coating",
+    footer_privacy:"Privacy Policy",footer_terms:"Terms & Conditions",
+    nav_home:"Home",nav_legal:"Legal",nav_map:"Our Location",nav_lang_label:"తెలుగు",
+    footer_copy:"© 2026 GenZBike N Car Wash. All rights reserved."
+  },
+  te:{
+    topbar_open:"ఈ రోజు తెరిచి ఉంది — నేరుగా రండి, స్వాగతం",
+    nav_gallery:"గ్యాలరీ",nav_services:"సేవలు",nav_why:"మేమే ఎందుకు",nav_faq:"అడిగే సందేహాలు",nav_book:"బుక్ చేయండి",
+    hero_badge:"నమ్మకమైన వాహన శుభ్రం సేవలు",hero_tagline:"నేర్పుగా · నమ్మకంగా · సమయానికి",
+    hero_h1:"మీ బైక్ లేదా కారుకు<br><span class='gold'>మంచి సేవ</span> చేయించుకోండి",
+    hero_sub:"సాధారణ ఫోమ్ వాష్ నుండి సెరామిక్ కోటింగ్ వరకు — మీ వాహనాన్ని కొత్తగా మార్చే సేవలు మేము అందిస్తాం.",
+    btn_call:"కాల్ చేసి బుక్ చేయండి",btn_wa:"వాట్సాప్ చేయండి",btn_services:"సేవలు చూడండి",
+    trust_1:"పెయింట్ కి హాని కాదు",trust_2:"సమయానికి అప్పగిస్తాం",trust_3:"నిజాయితీ ధరలు",trust_4:"2,500+ వాహనాలు శుభ్రం చేశాం",
+    stat_1:"వాహనాలు శుభ్రం చేశాం",stat_2:"సంతోషపడిన కస్టమర్లు",stat_3:"రకాల సేవలు",stat_4:"నమ్మకమైన సేవ సంవత్సరాలు",
+    sec_services_label:"మా సేవలు",sec_services_h2:"మీ వాహనానికి కావలసిన అన్ని సేవలు",sec_services_sub:"ఆరు రకాల సేవలు — శ్రద్ధగా చేస్తాం, సమయానికి అప్పగిస్తాం.",
+    sn_01:"సేవ 01",sn_02:"సేవ 02",sn_03:"సేవ 03",sn_04:"సేవ 04",sn_05:"సేవ 05",sn_06:"సేవ 06",
+    s1_h:"ఫోమ్ వాష్",s1_p:"గట్టి ఫోమ్ తో వాహనం మీద ఉన్న దుమ్ము, మట్టి అన్నీ తొలగిస్తాం — పెయింట్ కి గీత పడదు.",s1_tag:"కార్లు మరియు బైక్లు",
+    s2_h:"డీజిల్ వాష్",s2_p:"డీజిల్ మరకలు, నూనె మరకలు మరియు ఇంజన్ మురికి అన్నీ పూర్తిగా తొలగిస్తాం.",s2_tag:"లోపలి శుభ్రత",
+    s3_h:"రబ్బింగ్",s3_p:"వాహనం పైన పడిన చిన్న గీతలు తొలగించి పెయింట్ ని మొదటిలా చేస్తాం.",s3_tag:"పెయింట్ బాగు చేయడం",
+    s4_h:"పాలిష్",s4_p:"వాహనానికి మెరుపు తెస్తాం. కొత్తగా కొన్న వాహనం లాగా మెరిసేలా చేస్తాం.",s4_tag:"కొత్త మెరుపు",
+    s5_h:"టెఫ్లాన్ కోటింగ్",s5_p:"వాహనం పైన రక్షణ పొర వేస్తాం — ఎండ, గీతలు నుండి నెలల తరబడి రక్షిస్తుంది.",s5_tag:"6 నుండి 12 నెలల రక్షణ",
+    s6_h:"సెరామిక్ కోటింగ్",s6_p:"చాలా కాలం మన్నే రక్షణ. పెయింట్ కి అతుక్కుని నీళ్ళు, మట్టి రాకుండా కాపాడుతుంది.",s6_tag:"2 నుండి 5 సంవత్సరాల రక్షణ",
+    sec_why_label:"మేమే ఎందుకు",sec_why_h2:"మేము సరిగ్గా చేస్తాం",sec_why_sub:"దొంగ పద్ధతులు లేవు. దాచిన చార్జీలు లేవు. పని చెప్పుకుంటుంది.",
+    w1_h:"పెయింట్ కి హాని కాని వస్తువులు",w1_p:"వాహనం రంగు పాడు కాకుండా శుభ్రం చేసే మంచి వస్తువులు మాత్రమే వాడతాం.",
+    w2_h:"వేగంగా పని చేస్తాం",w2_p:"సరిగ్గా చేస్తూనే వేగంగా పని పూర్తి చేస్తాం — మీ సమయం మాకు అమూల్యం.",
+    w3_h:"నిజాయితీ ధర",w3_p:"చెప్పిన ధరే వసూలు చేస్తాం. అదనపు చార్జీలు ఏమీ ఉండవు.",
+    w4_h:"నేర్పు గల పనివాళ్ళు",w4_p:"మా పనివాళ్ళు వాహన శుభ్రం పనిలో శిక్షణ పొందినవాళ్ళు.",
+    w5_h:"సమయానికి అప్పగిస్తాం",w5_p:"చెప్పిన సమయానికి వాహనం రెడీగా ఉంటుంది — ఆలస్యం అవదు.",
+    sec_gallery_label:"మా పని",sec_gallery_h2:"ముందు మరియు తర్వాత గ్యాలరీ",sec_gallery_sub:"మేము చేసిన వాహనాల నిజమైన ఫలితాలు.",gallery_tag1:"ప్రొఫెషనల్ శుభ్రం",
+    sec_faq_label:"సందేహాలు",sec_faq_h2:"మీకు తరచు వచ్చే సందేహాలు",sec_faq_sub:"కస్టమర్లు ఎక్కువగా అడిగే సందేహాలకు సమాధానాలు.",
+    faq1_q:"ఫోమ్ వాష్ అంటే ఏమిటి? అది సురక్షితమా?",faq1_a:"అవును, పూర్తిగా సురక్షితం. మందపాటి ఫోమ్ తో మట్టి మెత్తగా ఊడిపోతుంది — పెయింట్ కి గీత పడదు.",
+    faq2_q:"డీజిల్ వాష్ లో ఏం చేస్తారు?",faq2_a:"డీజిల్ మరకలు, నూనె మరియు ఇంజన్ మురికి అన్నీ పూర్తిగా తొలగిస్తాం. కారు అడుగు భాగం కూడా శుభ్రం చేస్తాం.",
+    faq3_q:"రబ్బింగ్ మరియు పాలిష్ లో తేడా ఏమిటి?",faq3_a:"రబ్బింగ్ వల్ల పెయింట్ మీది గీతలు పోతాయి. పాలిష్ వల్ల మెరుపు వస్తుంది. రెండూ కలిపి వాహనం కొత్తగా కనిపిస్తుంది.",
+    faq4_q:"టెఫ్లాన్ కోటింగ్ ఎన్ని నెలలు ఉంటుంది?",faq4_a:"సాధారణంగా 6 నుండి 12 నెలలు ఉంటుంది. ఎండ, గీతలు మరియు మురికి నుండి వాహనాన్ని కాపాడుతుంది.",
+    faq5_q:"సెరామిక్ కోటింగ్ పెట్టించుకోవడం అవసరమా?",faq5_a:"అవును. వాహనం పెయింట్ కి అతుక్కుని 2 నుండి 5 సంవత్సరాలు నీళ్ళు, మట్టి రాకుండా కాపాడుతుంది.",
+    faq6_q:"బైక్లు మరియు కార్లు రెండింటికీ సేవ ఉంటుందా?",faq6_a:"అవును. బైక్ అయినా కారు అయినా అన్ని ఆరు సేవలూ అందిస్తాం.",
+    cta_label:"మాతో మాట్లాడండి",cta_h2:"మీ సేవ బుక్ చేయాలనుకుంటున్నారా?",cta_p:"కాల్ చేయండి లేదా వాట్సాప్ మెసేజ్ పంపండి. మేము మీకు తొందరగా జవాబు చెప్తాం.",
+    cta_call:"కాల్ చేయండి +91 99483 60863",cta_wa:"వాట్సాప్ లో బుక్ చేయండి",
+    map_label:"మా చిరునామా",map_h2:"మేము ఇక్కడ ఉన్నాం",map_sub:"ఈ రోజే రండి — నేరుగా వచ్చినా పర్వాలేదు.",map_btn:"గూగుల్ మ్యాప్స్ లో చూడండి",
+    footer_services:"ఫోమ్ వాష్ · డీజిల్ వాష్ · రబ్బింగ్ · పాలిష్ · టెఫ్లాన్ కోటింగ్ · సెరామిక్ కోటింగ్",
+    footer_privacy:"గోప్యతా విధానం",footer_terms:"నిబంధనలు మరియు షరతులు",
+    footer_copy:"© 2026 GenZBike N Car Wash. అన్ని హక్కులు మాకు చెందుతాయి."
+  }
+};
+
+let curLang='en';
+
+function detectLang(){
+  const langs=navigator.languages||[navigator.language||'en'];
+  const teCodes=['te','te-IN','te-AP','te-TG'];
+  if(langs.some(l=>teCodes.includes(l)||l.toLowerCase().startsWith('te'))){curLang='te';applyLang();return}
+  try{
+    const tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if(tz==='Asia/Kolkata'&&navigator.geolocation){
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const{latitude:lat,longitude:lng}=pos.coords;
+        if(lat>=12.6&&lat<=19.9&&lng>=76.7&&lng<=84.7){curLang='te';applyLang()}
+      },()=>{});
+    }
+  }catch(e){}
+}
+
+function toggleLang(){curLang=curLang==='en'?'te':'en';applyLang()}
+function applyLang(){
+  const t=T[curLang];
+  document.querySelectorAll('[data-i]').forEach(el=>{const k=el.getAttribute('data-i');if(t[k]!==undefined)el.innerHTML=t[k]});
+  document.getElementById('langFlag').textContent=curLang==='en'?'🇮🇳':'🇬🇧';
+  document.getElementById('langText').textContent=curLang==='en'?'తెలుగు':'English';
+  const mf=document.getElementById('menuLangFlag');
+  const mt=document.getElementById('menuLangText');
+  if(mf)mf.textContent=curLang==='en'?'🇮🇳':'🇬🇧';
+  if(mt)mt.textContent=curLang==='en'?'తెలుగు':'English';
+  document.documentElement.setAttribute('lang',curLang==='te'?'te':'en');
+  document.body.setAttribute('data-lang',curLang);
+}
+
+function toggleMenu(){
+  const menu=document.getElementById('mobileMenu');
+  const overlay=document.getElementById('menuOverlay');
+  const btn=document.getElementById('hamburgerBtn');
+  const isOpen=menu.classList.contains('open');
+  if(isOpen){closeMenu();}
+  else{
+    menu.classList.add('open');
+    overlay.classList.add('open');
+    btn.classList.add('open');
+    btn.setAttribute('aria-expanded','true');
+    document.body.style.overflow='hidden';
+  }
+}
+function closeMenu(){
+  const menu=document.getElementById('mobileMenu');
+  const overlay=document.getElementById('menuOverlay');
+  const btn=document.getElementById('hamburgerBtn');
+  menu.classList.remove('open');
+  overlay.classList.remove('open');
+  btn.classList.remove('open');
+  btn.setAttribute('aria-expanded','false');
+  document.body.style.overflow='';
+}
+function toggleSub(btn){
+  const isOpen=btn.classList.contains('sub-open');
+  // Close all submenus first
+  document.querySelectorAll('.has-sub.sub-open').forEach(el=>{
+    el.classList.remove('sub-open');
+    el.setAttribute('aria-expanded','false');
+    const sub=el.nextElementSibling;
+    if(sub&&sub.classList.contains('submenu'))sub.classList.remove('open');
+  });
+  if(!isOpen){
+    btn.classList.add('sub-open');
+    btn.setAttribute('aria-expanded','true');
+    const sub=btn.nextElementSibling;
+    if(sub&&sub.classList.contains('submenu'))sub.classList.add('open');
+  }
+}
+// Close mobile menu on Escape
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+
+function toggleTheme(){
+  const html=document.documentElement;
+  const isDark=html.getAttribute('data-theme')==='dark';
+  html.setAttribute('data-theme',isDark?'light':'dark');
+  document.getElementById('toggleLabel').textContent=isDark?'DARK':'LIGHT';
+}
+
+function toggleFaq(btn){btn.closest('.faq-item').classList.toggle('open')}
+
+function openModal(id){
+  document.getElementById(id).classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(id){
+  document.getElementById(id).classList.remove('open');
+  document.body.style.overflow='';
+}
+// Close modal on overlay click
+document.querySelectorAll('.modal-overlay').forEach(m=>{
+  m.addEventListener('click',e=>{if(e.target===m)closeModal(m.id)});
+});
+// Close on Escape
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.modal-overlay.open').forEach(m=>closeModal(m.id))});
+
+// REVEAL
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:0.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// LAZY LOAD IMAGES
+const imgObs=new IntersectionObserver((entries,observer)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      const img=entry.target;
+      const src=img.getAttribute('data-src');
+      if(src){
+        img.src=src;
+        img.onload=()=>img.classList.add('loaded');
+        img.onerror=()=>img.classList.add('loaded');
+        img.removeAttribute('data-src');
+        observer.unobserve(img);
+      }
+    }
+  });
+},{rootMargin:'200px 0px',threshold:0.01});
+document.querySelectorAll('img.lazy-img').forEach(img=>imgObs.observe(img));
+
+// RIGHT CLICK
+document.addEventListener('contextmenu',e=>{e.preventDefault();return false});
+
+// FOAM CURSOR
+const cur=document.getElementById('cursor');
+const trail=document.getElementById('cursor-trail');
+const isTouch=('ontouchstart' in window)||navigator.maxTouchPoints>0;
+if(isTouch){if(cur)cur.style.display='none';if(trail)trail.style.display='none';}
+else{
+  document.addEventListener('mousemove',e=>{cur.style.left=e.clientX+'px';cur.style.top=e.clientY+'px';trail.style.left=e.clientX+'px';trail.style.top=e.clientY+'px'});
+  document.addEventListener('mousedown',()=>cur.style.transform='translate(-50%,-50%) scale(1.4)');
+  document.addEventListener('mouseup',()=>cur.style.transform='translate(-50%,-50%) scale(1)');
+  let t=0;(function bob(){t+=0.04;cur.style.marginLeft=Math.sin(t)*2+'px';cur.style.marginTop=Math.cos(t*0.8)*1.5+'px';requestAnimationFrame(bob)})();
+}
+
+detectLang();
+</script>
+</body>
+</html>
